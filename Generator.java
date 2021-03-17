@@ -10,7 +10,7 @@ public class Generator {
     public static String numbers = "0123456789";
     public static String specielChars = ".!?*%";
 
-    public static String allStr = alfabeLower + alfabeUpper + numbers + specielsChars;
+    public static String allStr = alfabeLower + alfabeUpper + numbers + specielChars;
 
     public static String generateRandomString(int size){
         String text = "";
