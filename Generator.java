@@ -8,7 +8,7 @@ public class Generator {
     public static String alfabeLower = "abcdefghytzxvnmlsipou";
     public static String alfabeUpper = alfabeLower.toUpperCase().replace("İ", "I");
     public static String numbers = "0123456789";
-    public static String specielsChars = ".!?*%";
+    public static String specielChars = ".!?*%";
 
     public static String allStr = alfabeLower + alfabeUpper + numbers + specielsChars;
 
